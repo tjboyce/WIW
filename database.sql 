@@ -1,0 +1,13 @@
+CREATE TABLE "shifts" (
+	"id" SERIAL PRIMARY KEY,
+	"date" DATE, 
+	"start" TIME, 
+	"end" TIME
+);
+
+SELECT * FROM "shifts";
+
+INSERT INTO "shifts" ("date", "start", "end") 
+VALUES ('2019-06-07', '09:00:00', '12:00:00');
+
+
