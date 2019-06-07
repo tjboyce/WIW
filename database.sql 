@@ -5,7 +5,7 @@ CREATE TABLE "shifts" (
 	"end" TIME
 );
 
-SELECT * FROM "shifts";
+SELECT * FROM "shifts" ORDER BY "date";
 
 INSERT INTO "shifts" ("date", "start", "end") 
 VALUES ('2019-06-07', '09:00:00', '12:00:00');
